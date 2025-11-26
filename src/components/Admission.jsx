@@ -4,7 +4,7 @@ import './Admission.css';
 const Admission = () => {
   const handleAdmissionClick = () => {
     // Replace with actual admission link
-    window.open('https://example.com/admission', '_blank');
+    window.open('https://docs.google.com/forms/d/e/1FAIpQLSdmUBWCbgKQMC_zEOxRwFcccbBkgNjL_v9BVNaTCScsWDMcmA/viewform?usp=dialog', '_blank');
   };
 
   return (
