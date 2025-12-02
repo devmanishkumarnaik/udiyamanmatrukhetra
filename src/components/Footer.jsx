@@ -63,7 +63,7 @@ const Footer = () => {
         </div>
 
         <div className="footer-bottom">
-          <p>&copy; {currentYear} Udiyaman Matrukhetra School. All rights reserved. | Developed By Sarita Naik</p>
+          <p>&copy; {currentYear} Udiyaman Matrukhetra School. All rights reserved. | Developed By Sarita Naik📌</p>
         </div>
       </div>
     </footer>
