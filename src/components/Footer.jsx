@@ -1,4 +1,4 @@
-import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin, FaEnvelope, FaPhone, FaMapMarkerAlt } from 'react-icons/fa';
+import { FaFacebook, FaTwitter, FaInstagram, FaYoutube, FaEnvelope, FaPhone, FaMapMarkerAlt } from 'react-icons/fa';
 import './Footer.css';
 
 const Footer = () => {
@@ -17,7 +17,7 @@ const Footer = () => {
               <a href="#" aria-label="Facebook"><FaFacebook /></a>
               <a href="#" aria-label="Twitter"><FaTwitter /></a>
               <a href="https://www.instagram.com/matrukhetra?utm_source=qr&igsh=YjBuOHBpNTE1aXZx" aria-label="Instagram"><FaInstagram /></a>
-              <a href="#" aria-label="LinkedIn"><FaLinkedin /></a>
+              <a href="https://youtube.com/@udiyamanmatrukhetra?si=BkLDGcYLzta0GKfh" aria-label="YouTube"><FaYoutube /></a>
             </div>
           </div>
 
