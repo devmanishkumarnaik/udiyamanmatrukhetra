@@ -88,17 +88,17 @@ const Contact = () => {
             <div className="info-card">
               <FaPhone className="info-icon" />
               <h3>Phone</h3>
-              <p><a href="tel:+11234567890">+1 (123) 456-7890</a></p>
+              <p><a href="tel:+918280160435">+918280160435</a></p>
             </div>
             <div className="info-card">
               <FaEnvelope className="info-icon" />
               <h3>Email</h3>
-              <p><a href="mailto:info@school.com">info@school.com</a></p>
+              <p><a href="mailto:udiyamanmatrukhetra1973@gmail.com">udiyamanmatrukhetra1973@gmail.com</a></p>
             </div>
             <div className="info-card">
               <FaUser className="info-icon" />
               <h3>Address</h3>
-              <p>123 Education Street, Learning City, 12345</p>
+              <p>Dedarnuapali, Sambalpur - 768112</p>
             </div>
           </div>
 
