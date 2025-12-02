@@ -19,7 +19,7 @@ const About = () => {
             </strong>
           </p>
           <div className="about-footer">
-            <p className="since-text">--Since 1990 Jan 17</p>
+            <p className="since-text">--Since 1999 Sept 9</p>
           </div>
         </div>
       </div>
