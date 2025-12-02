@@ -48,15 +48,15 @@ const Footer = () => {
             <div className="contact-info">
               <div className="contact-item">
                 <FaMapMarkerAlt />
-                <span>123 Education Street, Learning City, 12345</span>
+                <span>Dedarnuapali, Sambalpur - 768112</span>
               </div>
               <div className="contact-item">
                 <FaPhone />
-                <span>+1 (123) 456-7890</span>
+                <span>+918280160435</span>
               </div>
               <div className="contact-item">
                 <FaEnvelope />
-                <span>info@school.com</span>
+                <span>udiyamanmatrukhetra1973@gmail.com</span>
               </div>
             </div>
           </div>
