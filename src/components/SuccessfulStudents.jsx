@@ -4,21 +4,21 @@ import './SuccessfulStudents.css';
 const SuccessfulStudents = () => {
   const students = [
     {
-      name: 'Sarita Naik',
-      result: '95.6%',
+      name: 'Nikita Padhan',
+      result: '73.83%',
       photo: '/images/student1.jpg',
       achievement: 'School Topper'
     },
     {
-      name: 'Priya Patel',
-      result: '94.2%',
-      photo: '/images/student2.jpg',
+      name: 'Smita Bhoi',
+      result: '73.5%',
+      photo: '/images/student3.jpg',
       achievement: 'District Rank 3'
     },
     {
-      name: 'Amit Kumar',
-      result: '93.8%',
-      photo: '/images/student3.jpg',
+      name: 'Chandini Dansana',
+      result: '70.66%',
+      photo: '/images/student2.jpg',
       achievement: 'Excellence Award'
     },
     {
