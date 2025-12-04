@@ -7,19 +7,19 @@ const SuccessfulStudents = () => {
       name: 'Nikita Padhan',
       result: '73.83%',
       photo: '/images/student1.jpg',
-      achievement: 'School Topper'
+      achievement: ''
     },
     {
       name: 'Smita Bhoi',
       result: '73.5%',
       photo: '/images/student3.jpg',
-      achievement: 'District Rank 3'
+      achievement: ''
     },
     {
       name: 'Chandini Dansana',
       result: '70.66%',
       photo: '/images/student2.jpg',
-      achievement: 'Excellence Award'
+      achievement: ''
     },
     {
       name: 'Sneha Singh',
