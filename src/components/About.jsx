@@ -10,7 +10,7 @@ const About = () => {
         <div className="about-content">
           <p className="about-description">
             <strong>
-              Welcome to Udiyaman Matrukhetra, a beacon of educational excellence dedicated to nurturing young minds and shaping future leaders. Our institution stands committed to providing quality education that combines traditional values with modern teaching methodologies. We believe in holistic development, fostering not just academic excellence but also character building, creativity, and critical thinking in every student.
+              Sri Aurobindo Integral Education & Research Centre,Udiyaman Matrukhetra,Dedarnuapali,Sambalpur a beacon of educational excellence dedicated to nurturing young minds and shaping future leaders. Our institution stands committed to providing quality education that combines traditional values with modern teaching methodologies. We believe in holistic development, fostering not just academic excellence but also character building, creativity, and critical thinking in every student.
             </strong>
           </p>
           <p className="about-description">
