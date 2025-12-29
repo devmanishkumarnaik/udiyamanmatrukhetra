@@ -3,7 +3,7 @@ import './Hero.css';
 
 const Hero = () => {
   const [displayText, setDisplayText] = useState('');
-  const fullText = 'Sri Aurobindo Integral Education & Research Centre,Udiyaman Matrukhetra,Dedarnuapali,Sambalpur';
+  const fullText = 'Sri Aurobindo Integral Education & Research Centre,Udiyaman Matrukhetra;
 
   useEffect(() => {
     let currentIndex = 0;
