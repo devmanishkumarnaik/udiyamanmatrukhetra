@@ -1432,23 +1432,52 @@ const generateProgressCardMobile = (card) => {
           <p>2. Select "Save as PDF" in print options</p>
           <p>3. Choose download location</p>
           <p>
-  📌 4. First, try the button above. If the download does not work, please visit our website to download:
+  📌 4. First, try the button above. If the download does not work, please copy the URL below and open it in your browser:
 </p>
 
-<a href="https://udiyamanmatrukhetra.org/profile"
-   target="_blank"
-   style="
-     display: inline-block;
-     background-color: #28a745;
-     color: #ffffff;
-     font-weight: bold;
-     padding: 10px 18px;
-     text-decoration: none;
-     border-radius: 6px;
-     margin-top: 6px;
-   ">
-  Click Here
-</a>
+<div style="margin-top: 8px;">
+  <input
+    type="text"
+    id="profileUrl"
+    value="https://udiyamanmatrukhetra.org/profile"
+    readonly
+    style="
+      width: 100%;
+      max-width: 420px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 14px;
+    "
+  />
+
+  <button
+    onclick="copyProfileUrl()"
+    style="
+      margin-left: 8px;
+      padding: 10px 16px;
+      background-color: #007bff;
+      color: #ffffff;
+      font-weight: bold;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    "
+  >
+    Copy URL
+  </button>
+</div>
+
+<script>
+  function copyProfileUrl() {
+    const input = document.getElementById("profileUrl");
+    input.select();
+    input.setSelectionRange(0, 99999); // For mobile support
+    navigator.clipboard.writeText(input.value);
+    alert("URL copied to clipboard!");
+  }
+</script>
+
 
         </div>
       </div>
@@ -2020,24 +2049,53 @@ const generateMarkCardMobile = (result) => {
           <p>1. Tap the button above</p>
           <p>2. Select "Save as PDF" in print options</p>
           <p>3. Choose download location</p>
-          <p>
-  📌 4. First, try the button above. If the download does not work, please visit our website to download:
+         <p>
+  📌 4. First, try the button above. If the download does not work, please copy the URL below and open it in your browser:
 </p>
 
-<a href="https://udiyamanmatrukhetra.org/profile"
-   target="_blank"
-   style="
-     display: inline-block;
-     background-color: #28a745;
-     color: #ffffff;
-     font-weight: bold;
-     padding: 10px 18px;
-     text-decoration: none;
-     border-radius: 6px;
-     margin-top: 6px;
-   ">
-  Click Here
-</a>
+<div style="margin-top: 8px;">
+  <input
+    type="text"
+    id="profileUrl"
+    value="https://udiyamanmatrukhetra.org/profile"
+    readonly
+    style="
+      width: 100%;
+      max-width: 420px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 14px;
+    "
+  />
+
+  <button
+    onclick="copyProfileUrl()"
+    style="
+      margin-left: 8px;
+      padding: 10px 16px;
+      background-color: #007bff;
+      color: #ffffff;
+      font-weight: bold;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    "
+  >
+    Copy URL
+  </button>
+</div>
+
+<script>
+  function copyProfileUrl() {
+    const input = document.getElementById("profileUrl");
+    input.select();
+    input.setSelectionRange(0, 99999); // For mobile support
+    navigator.clipboard.writeText(input.value);
+    alert("URL copied to clipboard!");
+  }
+</script>
+
 
         </div>
       </div>
@@ -2585,23 +2643,52 @@ export const generateCertificatePDF = (result) => {
           <p>2. Select "Save as PDF" in print options</p>
           <p>3. Choose download location</p>
           <p>
-  📌 4. First, try the button above. If the download does not work, please visit our website to download:
+  📌 4. First, try the button above. If the download does not work, please copy the URL below and open it in your browser:
 </p>
 
-<a href="https://udiyamanmatrukhetra.org/profile"
-   target="_blank"
-   style="
-     display: inline-block;
-     background-color: #28a745;
-     color: #ffffff;
-     font-weight: bold;
-     padding: 10px 18px;
-     text-decoration: none;
-     border-radius: 6px;
-     margin-top: 6px;
-   ">
-  Click Here
-</a>
+<div style="margin-top: 8px;">
+  <input
+    type="text"
+    id="profileUrl"
+    value="https://udiyamanmatrukhetra.org/profile"
+    readonly
+    style="
+      width: 100%;
+      max-width: 420px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 14px;
+    "
+  />
+
+  <button
+    onclick="copyProfileUrl()"
+    style="
+      margin-left: 8px;
+      padding: 10px 16px;
+      background-color: #007bff;
+      color: #ffffff;
+      font-weight: bold;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    "
+  >
+    Copy URL
+  </button>
+</div>
+
+<script>
+  function copyProfileUrl() {
+    const input = document.getElementById("profileUrl");
+    input.select();
+    input.setSelectionRange(0, 99999); // For mobile support
+    navigator.clipboard.writeText(input.value);
+    alert("URL copied to clipboard!");
+  }
+</script>
+
 
         </div>
       </div>
