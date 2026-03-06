@@ -13,7 +13,7 @@ const Members = () => {
       name: 'Ramesh Ch. Suhula',
       role: 'Principal',
       description: 'Leading with vision and 20+ years of educational excellence',
-      photo: '/images/member2.jpg'
+      photo: '/images/member3.jpg'
     },
     {
       name: 'Prof. Meera Sharma',
