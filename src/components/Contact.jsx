@@ -88,7 +88,7 @@ const Contact = () => {
             <div className="info-card">
               <FaPhone className="info-icon" />
               <h3>Phone</h3>
-              <p><a href="tel:+918280160435">+918280160435</a></p>
+              <p><a href="tel:+917608867300">+917608867300</a></p>
             </div>
             <div className="info-card">
               <FaEnvelope className="info-icon" />
